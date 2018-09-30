@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		769F180121608E95006A2118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F180021608E95006A2118 /* AppDelegate.swift */; };
+		769F180321608E95006A2118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F180221608E95006A2118 /* ViewController.swift */; };
+		769F180621608E96006A2118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769F180421608E96006A2118 /* Main.storyboard */; };
+		769F180821608E97006A2118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769F180721608E97006A2118 /* Assets.xcassets */; };
+		769F180B21608E97006A2118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769F180921608E97006A2118 /* LaunchScreen.storyboard */; };
+		769F181621608E97006A2118 /* TemperatureCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F181521608E97006A2118 /* TemperatureCalculatorTests.swift */; };
+		769F182121608E97006A2118 /* TemperatureCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F182021608E97006A2118 /* TemperatureCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		769F181221608E97006A2118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769F17F521608E95006A2118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769F17FC21608E95006A2118;
+			remoteInfo = TemperatureCalculator;
+		};
+		769F181D21608E97006A2118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769F17F521608E95006A2118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769F17FC21608E95006A2118;
+			remoteInfo = TemperatureCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		769F17FD21608E95006A2118 /* TemperatureCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		769F180021608E95006A2118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		769F180221608E95006A2118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		769F180521608E96006A2118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		769F180721608E97006A2118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		769F180A21608E97006A2118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		769F180C21608E97006A2118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769F181121608E97006A2118 /* TemperatureCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		769F181521608E97006A2118 /* TemperatureCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCalculatorTests.swift; sourceTree = "<group>"; };
+		769F181721608E97006A2118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769F181C21608E97006A2118 /* TemperatureCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		769F182021608E97006A2118 /* TemperatureCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCalculatorUITests.swift; sourceTree = "<group>"; };
+		769F182221608E97006A2118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		769F17FA21608E95006A2118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769F180E21608E97006A2118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769F181921608E97006A2118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		769F17F421608E95006A2118 = {
+			isa = PBXGroup;
+			children = (
+				769F17FF21608E95006A2118 /* TemperatureCalculator */,
+				769F181421608E97006A2118 /* TemperatureCalculatorTests */,
+				769F181F21608E97006A2118 /* TemperatureCalculatorUITests */,
+				769F17FE21608E95006A2118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		769F17FE21608E95006A2118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				769F17FD21608E95006A2118 /* TemperatureCalculator.app */,
+				769F181121608E97006A2118 /* TemperatureCalculatorTests.xctest */,
+				769F181C21608E97006A2118 /* TemperatureCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		769F17FF21608E95006A2118 /* TemperatureCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				769F180021608E95006A2118 /* AppDelegate.swift */,
+				769F180221608E95006A2118 /* ViewController.swift */,
+				769F180421608E96006A2118 /* Main.storyboard */,
+				769F180721608E97006A2118 /* Assets.xcassets */,
+				769F180921608E97006A2118 /* LaunchScreen.storyboard */,
+				769F180C21608E97006A2118 /* Info.plist */,
+			);
+			path = TemperatureCalculator;
+			sourceTree = "<group>";
+		};
+		769F181421608E97006A2118 /* TemperatureCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				769F181521608E97006A2118 /* TemperatureCalculatorTests.swift */,
+				769F181721608E97006A2118 /* Info.plist */,
+			);
+			path = TemperatureCalculatorTests;
+			sourceTree = "<group>";
+		};
+		769F181F21608E97006A2118 /* TemperatureCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				769F182021608E97006A2118 /* TemperatureCalculatorUITests.swift */,
+				769F182221608E97006A2118 /* Info.plist */,
+			);
+			path = TemperatureCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		769F17FC21608E95006A2118 /* TemperatureCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769F182521608E97006A2118 /* Build configuration list for PBXNativeTarget "TemperatureCalculator" */;
+			buildPhases = (
+				769F17F921608E95006A2118 /* Sources */,
+				769F17FA21608E95006A2118 /* Frameworks */,
+				769F17FB21608E95006A2118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureCalculator;
+			productName = TemperatureCalculator;
+			productReference = 769F17FD21608E95006A2118 /* TemperatureCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		769F181021608E97006A2118 /* TemperatureCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769F182821608E97006A2118 /* Build configuration list for PBXNativeTarget "TemperatureCalculatorTests" */;
+			buildPhases = (
+				769F180D21608E97006A2118 /* Sources */,
+				769F180E21608E97006A2118 /* Frameworks */,
+				769F180F21608E97006A2118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769F181321608E97006A2118 /* PBXTargetDependency */,
+			);
+			name = TemperatureCalculatorTests;
+			productName = TemperatureCalculatorTests;
+			productReference = 769F181121608E97006A2118 /* TemperatureCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		769F181B21608E97006A2118 /* TemperatureCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769F182B21608E97006A2118 /* Build configuration list for PBXNativeTarget "TemperatureCalculatorUITests" */;
+			buildPhases = (
+				769F181821608E97006A2118 /* Sources */,
+				769F181921608E97006A2118 /* Frameworks */,
+				769F181A21608E97006A2118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769F181E21608E97006A2118 /* PBXTargetDependency */,
+			);
+			name = TemperatureCalculatorUITests;
+			productName = TemperatureCalculatorUITests;
+			productReference = 769F181C21608E97006A2118 /* TemperatureCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		769F17F521608E95006A2118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = KDH;
+				TargetAttributes = {
+					769F17FC21608E95006A2118 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					769F181021608E97006A2118 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 769F17FC21608E95006A2118;
+					};
+					769F181B21608E97006A2118 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 769F17FC21608E95006A2118;
+					};
+				};
+			};
+			buildConfigurationList = 769F17F821608E95006A2118 /* Build configuration list for PBXProject "TemperatureCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 769F17F421608E95006A2118;
+			productRefGroup = 769F17FE21608E95006A2118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				769F17FC21608E95006A2118 /* TemperatureCalculator */,
+				769F181021608E97006A2118 /* TemperatureCalculatorTests */,
+				769F181B21608E97006A2118 /* TemperatureCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		769F17FB21608E95006A2118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769F180B21608E97006A2118 /* LaunchScreen.storyboard in Resources */,
+				769F180821608E97006A2118 /* Assets.xcassets in Resources */,
+				769F180621608E96006A2118 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769F180F21608E97006A2118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769F181A21608E97006A2118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		769F17F921608E95006A2118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769F180321608E95006A2118 /* ViewController.swift in Sources */,
+				769F180121608E95006A2118 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769F180D21608E97006A2118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769F181621608E97006A2118 /* TemperatureCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769F181821608E97006A2118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769F182121608E97006A2118 /* TemperatureCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		769F181321608E97006A2118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769F17FC21608E95006A2118 /* TemperatureCalculator */;
+			targetProxy = 769F181221608E97006A2118 /* PBXContainerItemProxy */;
+		};
+		769F181E21608E97006A2118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769F17FC21608E95006A2118 /* TemperatureCalculator */;
+			targetProxy = 769F181D21608E97006A2118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		769F180421608E96006A2118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				769F180521608E96006A2118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		769F180921608E97006A2118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				769F180A21608E97006A2118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		769F182321608E97006A2118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		769F182421608E97006A2118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		769F182621608E97006A2118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TemperatureCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TemperatureCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		769F182721608E97006A2118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TemperatureCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TemperatureCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		769F182921608E97006A2118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TemperatureCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TemperatureCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemperatureCalculator.app/TemperatureCalculator";
+			};
+			name = Debug;
+		};
+		769F182A21608E97006A2118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TemperatureCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TemperatureCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemperatureCalculator.app/TemperatureCalculator";
+			};
+			name = Release;
+		};
+		769F182C21608E97006A2118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TemperatureCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TemperatureCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TemperatureCalculator;
+			};
+			name = Debug;
+		};
+		769F182D21608E97006A2118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TemperatureCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TemperatureCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TemperatureCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		769F17F821608E95006A2118 /* Build configuration list for PBXProject "TemperatureCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769F182321608E97006A2118 /* Debug */,
+				769F182421608E97006A2118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769F182521608E97006A2118 /* Build configuration list for PBXNativeTarget "TemperatureCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769F182621608E97006A2118 /* Debug */,
+				769F182721608E97006A2118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769F182821608E97006A2118 /* Build configuration list for PBXNativeTarget "TemperatureCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769F182921608E97006A2118 /* Debug */,
+				769F182A21608E97006A2118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769F182B21608E97006A2118 /* Build configuration list for PBXNativeTarget "TemperatureCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769F182C21608E97006A2118 /* Debug */,
+				769F182D21608E97006A2118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 769F17F521608E95006A2118 /* Project object */;
+}

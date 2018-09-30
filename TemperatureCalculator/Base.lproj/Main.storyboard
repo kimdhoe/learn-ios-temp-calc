@@ -39,7 +39,10 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="aCq-qE-JhK"/>
+                                </connections>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ysl-2b-8tY">
                                 <rect key="frame" x="20" y="619" width="335" height="29"/>
@@ -51,6 +54,9 @@
                                     <segment title="Calculate to F"/>
                                 </segments>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="switchFormat:" destination="BYZ-38-t0r" eventType="valueChanged" id="RBo-L0-uIZ"/>
+                                </connections>
                             </segmentedControl>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Temp1" translatesAutoresizingMaskIntoConstraints="NO" id="ZFI-Tz-r3N">
                                 <rect key="frame" x="20" y="240" width="335" height="287"/>
@@ -89,6 +95,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="enterLabel" destination="CMu-t9-jBn" id="rJK-XF-RVy"/>
+                        <outlet property="formatSeg" destination="ysl-2b-8tY" id="5MB-47-xTX"/>
+                        <outlet property="imageView" destination="ZFI-Tz-r3N" id="MgJ-Oc-dqy"/>
+                        <outlet property="outputLabel" destination="aPw-FW-bz3" id="ryf-NC-9jp"/>
+                        <outlet property="textField" destination="5yZ-PV-g5M" id="ntf-sA-aeo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
